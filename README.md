@@ -1,6 +1,6 @@
 # 网址导航（静态页面通用模板）
 
-https://geneasy.github.io/nav/
+<https://geneasy.github.io/nav/>
 
 这是一个通用的网址导航模板，任何类型的网站都可以拿去使用。
 
@@ -26,7 +26,7 @@ https://geneasy.github.io/nav/
 
 以下是 nginx 代码示例
 
-```
+```nginx
 location /nav/ {
     proxy_pass      https://你的用户名.github.io/nav/;
     proxy_intercept_errors on;
@@ -158,7 +158,7 @@ geneasy -t index.hbs -o /path/to/nav/index.html links.yml
 
 如果是自己的服务器，修改 proxy 配置的 `location`。
 
-```
+```nginx
 location / {
     proxy_pass      https://你的用户名.github.io/nav/;
     proxy_intercept_errors on;
@@ -172,7 +172,7 @@ location / {
 
 or
 
-```
+```nginx
 location /daohang/ {
     proxy_pass      https://你的用户名.github.io/nav/;
     proxy_intercept_errors on;
