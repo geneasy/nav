@@ -51,12 +51,12 @@ categories:
         description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
         tags: 程序员,问答,社区,stackoverflow
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
         tags: 程序员,生活,创意
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
         tags: 程序员,生活,创意
@@ -76,7 +76,7 @@ categories:
         description: 抛砖问答(PZWD)是一个非商业性质的，独立的，开放的，程序员的问答社区。
         tags: 程序员,问答,社区,stackoverflow
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
         tags: 程序员,生活,创意
@@ -86,7 +86,7 @@ categories:
         description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
         tags: RSS,Atom,聚合新闻,内容订阅
       - title: GenEasy
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/geneasy
         description: A command line tool that can easily generate HTML, Markdown documents, etc.
         tags: cli,tools
@@ -95,20 +95,20 @@ categories:
     icon: linecons-doc
     links:
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
         tags: 程序员,生活,创意
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
 
@@ -116,19 +116,19 @@ categories:
     icon: linecons-doc
     links:
       - title: viggo
-        logo: http://work.viggoz.com/images/favicon.png
+        logo: https://images.weserv.nl/?url=work.viggoz.com/images/favicon.png&w=60&h=60
         url: http://blog.viggoz.com/
         description: Webstack 的设计师
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
 
@@ -136,19 +136,19 @@ categories:
     icon: linecons-doc
     links:
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
       - title: 等你来加➕
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
         description: 快来提交你的网站吧
 
