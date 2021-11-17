@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GenEasy 网址导航</title>
-    <meta name="keywords" content="网址导航, 网站导航, 上网导航, 网址大全, hao123上网导航, hao123导航, hao123网址大全, 常用网站, 推荐网站, 个人导航, 个人书签, GenEasy, Github, Github Pages, SSG">
+    <link rel="canonical" href="https://geneasy.github.io/nav/">
+    <meta name="keywords" content="网址导航,网站导航,上网导航,网址大全,常用网站,推荐网站,个人导航,个人书签,个人主页,hao123上网导航,hao123导航,hao123网址大全,GenEasy,Github,Github Pages,SSG">
     <meta name="description" content="网址导航静态页面通用模板。">
     <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/91052735?s&#x3D;70&amp;v&#x3D;4">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
@@ -37,6 +38,12 @@
     <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/91052735?s&#x3D;200&amp;v&#x3D;4">
     <style>
     .logo h1{font-size: 20px; color: #fff}
+    .user-info-navbar .user-info-menu>li.hover-line.active:before {
+      display: block
+    }
+    .user-info-navbar .user-info-menu>li.hover-line.active>a {
+      color: #606161
+    }
     @media screen and (max-width:768px) {
       .page-container .sidebar-menu.fixed{
         position: fixed;
@@ -99,22 +106,38 @@
                         </a>
                     </li>
                     <li>
+                        <a>
+                            <i class="linecons-location"></i>
+                            <span class="title">网址导航</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="page1/">
+                                    <span class="title">页面1</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="page2/">
+                                    <span class="title">页面2</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
                         <a href="https://geneasy.github.io/links/" target="_blank">
                             <i class="linecons-heart"></i>
                             <span class="tooltip-blue">友情链接</span>
-                            <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/geneasy/nav/issues" target="_blank">
-                            <i class="linecons-heart"></i>
+                            <i class="linecons-pencil"></i>
                             <span class="tooltip-blue">提交网站</span>
-                            <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/geneasy/nav" target="_blank">
-                            <i class="linecons-heart"></i>
+                            <i class="linecons-lightbulb"></i>
                             <span class="tooltip-blue">关于本站</span>
                             <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
                         </a>
@@ -129,6 +152,12 @@
                 <!-- Left links for user info navbar -->
                 <ul class="user-info-menu left-links list-inline list-unstyled">
                     <li class="hidden-sm hidden-xs">
+                    </li>
+                    <li class="hover-line">
+                        <a href="page1/">页面1</a>
+                    </li>
+                    <li class="hover-line">
+                        <a href="page2/">页面2</a>
                     </li>
                 </ul>
                 <ul class="user-info-menu right-links list-inline list-unstyled">
