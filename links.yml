@@ -7,7 +7,7 @@ title: GenEasy 网址导航
 # 网站 LOGO（可选）
 # logo: https://webstack.cc/assets/images/logo@2x.png
 # 网址导航页面关键字（可选）
-keywords: 网址导航, 网站导航, 上网导航, 网址大全, hao123上网导航, hao123导航, hao123网址大全, 常用网站, 推荐网站, 个人导航, 个人书签, GenEasy, Github, Github Pages, SSG
+keywords: 网址导航,网站导航,上网导航,网址大全,常用网站,推荐网站,个人导航,个人书签,个人主页,hao123上网导航,hao123导航,hao123网址大全,GenEasy,Github,Github Pages,SSG
 # 网址导航页面描述（可选）
 description: 网址导航静态页面通用模板。
 # 网址导航页面 URL（可选）
@@ -28,6 +28,15 @@ link_submission_url: https://github.com/geneasy/nav/issues
 friendship_links_url: https://geneasy.github.io/links/
 # Google Analytics Code（可选）
 # ga_tracking_code_id: G-ABCDEFG
+
+################
+## 导航栏
+################
+navigation_urls:
+  - title: 页面1
+    url: page1/
+  - title: 页面2
+    url: page2/
 
 ################
 ## 网址导航数据

@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{title}}</title>
+    <title>{{title}}{{#if site_name}} - {{site_name}}{{/if}}</title>
+    <link rel="canonical" href="{{url}}">
     {{#if keywords}}
     <meta name="keywords" content="{{keywords}}">
     {{/if}}
@@ -34,17 +35,17 @@
     {{#if url}}
     <meta property="og:url" content="{{url}}">
     {{/if}}
-    <meta property="og:title" content="{{title}}">
+    <meta property="og:title" content="{{title}}{{#if site_name}} - {{site_name}}{{/if}}">
     {{#if description}}
     <meta property="og:description" content="{{description}}">
     {{/if}}
     {{#if og_img}}
     <meta property="og:image" content="{{og_img}}">
     {{/if}}
-    <meta property="og:site_name" content="{{title}}">
+    <meta property="og:site_name" content="{{#if site_name}}{{site_name}}{{else}}{{title}}{{/if}}">
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{title}}">
+    <meta name="twitter:title" content="{{title}}{{#if site_name}} - {{site_name}}{{/if}}">
     {{#if description}}
     <meta name="twitter:description" content="{{description}}">
     {{/if}}
@@ -53,6 +54,12 @@
     {{/if}}
     <style>
     .logo h1{font-size: 20px; color: #fff}
+    .user-info-navbar .user-info-menu>li.hover-line.active:before {
+      display: block
+    }
+    .user-info-navbar .user-info-menu>li.hover-line.active>a {
+      color: #606161
+    }
     @media screen and (max-width:768px) {
       .page-container .sidebar-menu.fixed{
         position: fixed;
@@ -74,7 +81,7 @@
                     <!-- logo -->
                     <div class="logo">
                         <a href="{{home_url}}" class="logo-expanded">
-                            {{#if logo}}<img src="{{logo}}" width="100%" alt="{{title}}" />{{else}}<h1>{{title}}</h1>{{/if}}
+                            {{#if logo}}<img src="{{logo}}" width="100%" alt="{{title}}" />{{else}}<h1>{{#if site_name}}{{site_name}}{{else}}{{title}}{{/if}}</h1>{{/if}}
                         </a>
                     </div>
                     <div class="mobile-menu-toggle visible-xs">
@@ -115,28 +122,48 @@
                     </li>
                     {{/unless}}
                     {{/each}}
+                    {{#if navigation_urls}}
+                    <li>
+                        <a>
+                            <i class="linecons-location"></i>
+                            <span class="title">网址导航</span>
+                        </a>
+                        <ul>
+                            {{#each navigation_urls}}
+                            {{#unless hide_menu}}
+                            <li>
+                                <a href="{{url}}">
+                                    <span class="title">{{title}}</span>
+                                    {{#if label}}
+                                    <span class="label label-pink pull-right hidden-collapsed">{{label}}</span>
+                                    {{/if}}
+                                </a>
+                            </li>
+                            {{/unless}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/if}}
                     {{#if friendship_links_url}}
                     <li>
                         <a href="{{friendship_links_url}}" target="_blank">
                             <i class="linecons-heart"></i>
                             <span class="tooltip-blue">友情链接</span>
-                            <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
                         </a>
                     </li>
                     {{/if}}
                     {{#if link_submission_url}}
                     <li>
                         <a href="{{link_submission_url}}" target="_blank">
-                            <i class="linecons-heart"></i>
+                            <i class="linecons-pencil"></i>
                             <span class="tooltip-blue">提交网站</span>
-                            <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
                         </a>
                     </li>
                     {{/if}}
                     {{#if about_url}}
                     <li>
                         <a href="{{about_url}}" target="_blank">
-                            <i class="linecons-heart"></i>
+                            <i class="linecons-lightbulb"></i>
                             <span class="tooltip-blue">关于本站</span>
                             <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
                         </a>
@@ -156,6 +183,11 @@
                             <i class="fa-bars"></i>
                         </a> --}}
                     </li>
+                    {{#each navigation_urls}}
+                    <li class="hover-line{{#if active}} active{{/if}}">
+                        <a href="{{url}}">{{title}}</a>
+                    </li>
+                    {{/each}}
                 </ul>
                 <ul class="user-info-menu right-links list-inline list-unstyled">
                     {{#if github_url}}
