@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{#if base_url}}
+    <base href="{{base_url}}" />
+    {{else}}
+    <base href="{{home_url}}" />
+    {{/if}}
     <title>{{title}}{{#if site_name}} - {{site_name}}{{/if}}</title>
     <link rel="canonical" href="{{url}}">
     {{#if keywords}}
