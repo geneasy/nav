@@ -10,7 +10,7 @@
 
 ## 如何在我的网站里加入这个网址导航页面？
 
-第一步：fork 这个项目
+第一步：fork 这个项目 (注意: [gh-pages 分支一起复制](https://github.com/geneasy/links/issues/5))
 
 第二步：进入 Settings > Pages, 启用 GitHub Pages 功能。分支选择 `gh-pages`。
 
