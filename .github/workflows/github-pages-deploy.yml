@@ -14,6 +14,8 @@ jobs:
         run: |
           npm i -g geneasy
           geneasy -t index.hbs -o public/index.html links.yml
+          geneasy -t index.hbs -o public/page1/index.html links.yml
+          geneasy -t index.hbs -o public/page2/index.html links.yml
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
