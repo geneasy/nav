@@ -3,176 +3,360 @@
 ## 网址导航页面配置
 ################
 # 网站标题
-title: GenEasy 网址导航
+title: Navi Cat
 # 网站 LOGO（可选）
-# logo: https://webstack.cc/assets/images/logo@2x.png
+#logo: https://webstack.cc/assets/images/logo@2x.png
 # 网址导航页面关键字（可选）
-keywords: 网址导航,网站导航,上网导航,网址大全,常用网站,推荐网站,个人导航,个人书签,个人主页,hao123上网导航,hao123导航,hao123网址大全,GenEasy,Github,Github Pages,SSG
+keywords: 个人导航,个人书签
 # 网址导航页面描述（可选）
-description: 网址导航静态页面通用模板。
+description: 网址导航
 # 网址导航页面 URL（可选）
-url: https://geneasy.github.io/nav/
+url: https://brownicat.github.io/nav/
 # Favicon（可选）
-shortcut_icon: https://avatars.githubusercontent.com/u/91052735?s=70&v=4
+shortcut_icon: https://brownicat.github.io/assets/logo_github.png
 # 社交分享图片（可选）
-og_img: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
+og_img: https://brownicat.github.io/assets/logo_github.png
 # 主页 URL
-home_url: https://geneasy.github.io/nav/
-# GitHub 链接（可选）
-github_url: https://github.com/geneasy/nav
-# 网站 about 链接（可选）
-about_url: https://github.com/geneasy/nav
+home_url: https://brownicat.github.io/nav/
 # 提交链接的 URL
-link_submission_url: https://github.com/geneasy/nav/issues
-# 网站友情链接（可选）
-friendship_links_url: https://geneasy.github.io/links/
-# Google Analytics Code（可选）
-# ga_tracking_code_id: G-ABCDEFG
-
-################
-## 导航栏
-################
-navigation_urls:
-  - title: 页面1
-    url: page1/
-  - title: 页面2
-    url: page2/
+link_submission_url: https://github.com/brownicat/nav/issues
 
 ################
 ## 网址导航数据
 ################
 categories:
-  - category: 新添加
+  - category: 搜索引擎
     icon: linecons-star
     links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-        tags: 程序员,生活,创意
-      - title: Pipecraft 社区
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
-
-  - category: 推荐
-    hide_menu: true
+      - title: Google
+        logo: https://brownicat.github.io/assets/logo_google.png
+        url: https://www.google.com/ncr
+        description: 
+        tags: Search
+      - title: Bing
+        logo: https://brownicat.github.io/assets/logo_bing.png
+        url: https://www.bing.com/
+        description: 
+        tags: Search
+      - title: Wikipedia
+        logo: https://brownicat.github.io/assets/logo_wikipedia.png
+        url: https://en.wikipedia.org/
+        description: 
+        tags: Search
+      - title: 有道词典
+        logo: https://brownicat.github.io/assets/logo_youdao.png
+        url: https://www.youdao.com/
+        description: 
+        tags: Search
+      - title: 金山词霸
+        logo: https://brownicat.github.io/assets/logo_ciba.png
+        url: https://www.iciba.com/
+        description: 
+        tags: Search
+      - title: WantQuotes 据意查句
+        logo: https://brownicat.github.io/assets/logo_wantquotes.png
+        url: https://wantquotes.net
+        description: 
+        tags: Search
+      - title: WantWords 反向词典
+        logo: https://brownicat.github.io/assets/logo_wantwords.png
+        url: https://wantwords.net
+        description: 
+        tags: Search
+  - category: 常用工具
     icon: linecons-star
     links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: Pipecraft 社区
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
-      - title: 纵横网址导航
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">纵</text></svg>
-        url: https://zh.pipecraft.net/
-        description: 收集小而美的中文垂直社区，微社区，垂直网址导航的网址导航网站。
-        tags: 网址导航,中文垂直社区,微社区,垂直网址导航
-
-  - category: 程序员博客
+      - title: Notion
+        logo: https://brownicat.github.io/assets/logo_notion.png
+        url: https://www.notion.so/
+        description: 
+        tags: Notes
+      - title: Craft
+        logo: https://brownicat.github.io/assets/logo_craft.png
+        url: https://www.craft.do/
+        description: 
+        tags: Notes
+      - title: Raindrop
+        logo: https://brownicat.github.io/assets/logo_raindrop.png
+        url: https://app.raindrop.io/
+        description: 
+        tags: Bookmarks
+      - title: 腾讯日历
+        logo: https://brownicat.github.io/assets/logo_qqrili.png
+        url: https://rili.tencent.com
+        description: 
+        tags: calendar
+      - title: 微信文件传输助手
+        logo: https://brownicat.github.io/assets/logo_wantwords.png
+        url: https://filehelper.weixin.qq.com
+        description: 
+        tags: File Transfer
+      - title: 奶牛快传
+        logo: https://brownicat.github.io/assets/logo_cowtransfer.png
+        url: https://cowtransfer.com/
+        description: 
+        tags: File Transfer
+      - title: Github
+        logo: https://brownicat.github.io/assets/logo_github.png
+        url: https://github.com/
+        description: 
+        tags: Source
+  - category: 新闻资讯
+    icon: linecons-star
+    links:
+      - title: Feedly
+        logo: https://brownicat.github.io/assets/logo_feedly.png
+        url: https://feedly.com/
+        description: 
+        tags: RSS, News
+      - title: 财新
+        logo: https://brownicat.github.io/assets/logo_caixin.png
+        url: https://www.caixin.com/
+        description: 
+        tags: News
+      - title: 联合早报
+        logo: https://brownicat.github.io/assets/logo_zaobao.png
+        url: https://www.zaobao.com.sg/news
+        description: 
+        tags: News
+      - title: 36氪
+        logo: https://brownicat.github.io/assets/logo_36kr.png
+        url: https://36kr.com/
+        description: 
+        tags: News
+      - title: 少数派
+        logo: https://brownicat.github.io/assets/logo_sspai.png
+        url: https://sspai.com/
+        description: 
+        tags: News
+      - title: 小众软件
+        logo: https://brownicat.github.io/assets/logo_appinn.png
+        url: https://www.appinn.com/
+        description: 
+        tags: News
+  - category: 社交网站
+    #hide_menu: true
+    icon: linecons-star
+    links:
+      - title: Twitter
+        logo: https://brownicat.github.io/assets/logo_twitter.png
+        url: https://twitter.com/
+        description: 
+        tags: Social
+      - title: Reddit
+        logo: https://brownicat.github.io/assets/logo_reddit.png
+        url: https://www.reddit.com/
+        tags: Social
+      - title: Instagram
+        logo: https://brownicat.github.io/assets/logo_instagram.png
+        url: https://www.instagram.com/
+        description: 
+        tags: Social
+      - title: Quora
+        logo: https://brownicat.github.io/assets/logo_quora.png
+        url: https://www.quora.com/
+        description: 
+        tags: Social
+      - title: Discord
+        logo: https://brownicat.github.io/assets/logo_discord.png
+        url: https://discord.com/
+        description: 
+        tags: Social
+      - title: Stackoverflow
+        logo: https://brownicat.github.io/assets/logo_stackoverflow.png
+        url: https://stackoverflow.com/
+        description: 
+        tags: Social
+      - title: 微博
+        logo: https://brownicat.github.io/assets/logo_weibo.png
+        url: https://weibo.com
+        description: 
+        tags: Social
+      - title: v2ex
+        logo: https://brownicat.github.io/assets/logo_v2ex.png
+        url: https://v2ex.com/
+        description: 
+        tags: Social
+      - title: 豆瓣
+        logo: https://brownicat.github.io/assets/logo_douban.png
+        url: https://www.douban.com/
+        description: 
+        tags: Social
+      - title: 知乎
+        logo: https://brownicat.github.io/assets/logo_zhihu.png
+        url: https://www.zhihu.com/
+        description: 
+        tags: Social
+  - category: 即时通讯
     icon: linecons-doc
     links:
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-        tags: 程序员,生活,创意
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-
-  - category: 设计师博客
+      - title: Telegram
+        logo: https://brownicat.github.io/assets/logo_telegram.png
+        url: https://web.telegram.org/
+        description: 
+        tags: Social, WebMessager
+      - title: Slack
+        logo: https://brownicat.github.io/assets/logo_slack.png
+        url: https://slack.com
+        description: 
+        tags: Social, WebMessager
+  - category: 电子邮件
     icon: linecons-doc
     links:
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-
-  - category: 个人博客
+      - title: Outlook
+        logo: https://brownicat.github.io/assets/logo_outlook.png
+        url: https://outlook.live.com/
+        description: 
+        tags: email
+      - title: Gmail
+        logo: https://brownicat.github.io/assets/logo_google.png
+        url: https://mail.google.com/
+        description: 
+        tags: email
+      - title: 网易邮箱
+        logo: https://brownicat.github.io/assets/logo_163mail.png
+        url: https://mail.163.com/
+        description: 
+        tags: email
+      - title: QQ邮箱
+        logo: https://brownicat.github.io/assets/logo_qq.png
+        url: https://mail.qq.com/
+        description: 
+        tags: email
+      - title: Temp-mail
+        logo: https://brownicat.github.io/assets/logo_tempmail.png
+        url: https://temp-mail.org/zh/
+        description: 
+        tags: email
+    - category: 网络云盘
+      icon: linecons-doc
+      links:
+        - title: Alist
+          logo: https://brownicat.github.io/assets/logo_alist.png
+          url: http://106.15.107.220:5244/
+          description: 
+          tags: Cloud
+        - title: OneDrice
+          logo: https://brownicat.github.io/assets/logo_onedrive.png
+          url: https://onedrive.live.com
+          description: 
+          tags: Cloud
+        - title: iCloud China
+          logo: https://brownicat.github.io/assets/logo_icloud.png
+          url: https://icloud.com.cn
+          description: 
+          tags: Cloud
+        - title: 百度云盘
+          logo: https://brownicat.github.io/assets/logo_baidu.png
+          url: https://pan.baidu.com
+          description: 
+          tags: Cloud
+        - title: 夸克网盘
+          logo: https://brownicat.github.io/assets/logo_quark.png
+          url: https://pan.quark.cn
+          description: 
+          tags: Cloud
+        - title: 阿里云盘
+          logo: https://brownicat.github.io/assets/logo_aliyun.png
+          url: https://www.aliyundrive.com/
+          description: 
+          tags: Cloud
+        - title: 腾讯微云
+          logo: https://brownicat.github.io/assets/logo_weiyun.png
+          url: https://weiyun.com
+          description: 
+          tags: Cloud
+        - title: 迅雷网盘
+          logo: https://brownicat.github.io/assets/logo_xunlei.png
+          url: https://pan.xunlei.com
+          description: 
+          tags: Cloud
+        - title: 坚果云
+          logo: https://brownicat.github.io/assets/logo_jianguoyun.png
+          url: https://jianguoyun.com
+          description: 
+          tags: Cloud     
+  - category: 在线工具
+    icon: linecons-doc
+    links: 
+      - title: Google Maps
+        logo: <img data-src="../assets/images/logos/google.png" class="lozad img-circle" width="40">
+        url: https://maps.google.com
+        description: 
+        tags: Web Tools, Maps
+      - title: 高德地图
+        logo: https://brownicat.github.io/assets/logo_gaode.png
+        url: https://ditu.amap.com/
+        description: 
+        tags: Web Tools, Maps
+      - title: 百度地图
+        logo: https://brownicat.github.io/assets/logo_baidu.png
+        url: https://map.baidu.com/
+        description: 
+        tags: Web Tools, Maps
+      - title: TinyPNG
+        logo: <img data-src="../assets/images/logos/tinypng.png" class="lozad img-circle" width="40">
+        url: https://tinypng.com/
+        description: 
+        tags: Web Tools
+      - title: TinyPNG
+        logo: <img data-src="../assets/images/logos/goqr.png" class="lozad img-circle" width="40">
+        url: http://goqr.me/
+        description: 
+        tags: Web Tools
+      - title: EZgif
+        logo: <img data-src="../assets/images/logos/ezgif.png" class="lozad img-circle" width="40">
+        url: https://ezgif.com
+        description: 
+        tags: Web Tools
+      - title: EZgif
+        logo: <img data-src="../assets/images/logos/ezgif.png" class="lozad img-circle" width="40">
+        url: https://ezgif.com
+        description: 
+        tags: Web Tools
+      - title: svgomg
+        logo: <img data-src="../assets/images/logos/svgomg.png" class="lozad img-circle" width="40">
+        url: https://jakearchibald.github.io/svgomg/
+        description: SVG在线压缩平台
+        tags: Web Tools
+      - title: Regex AI
+        logo: https://brownicat.github.io/assets/logo_regexai.png
+        url: https://regex.ai/
+        description: AI-Powered Regex Solver
+        tags: Web Tools, Regex
+      - title: Rubular
+        logo: https://brownicat.github.io/assets/logo_rubular.png
+        url: https://rubular.com/
+        description: Ruby-based regular expression editor/tester
+        tags: Web Tools, Regex
+  - category: 游戏商店
     icon: linecons-doc
     links:
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-
-  - category: 社区
-    icon: linecons-doc
-    links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: V2EX
-        logo: https://images.weserv.nl/?url=https://www.v2ex.com/static/img/v2ex@2x.png&w=60&h=60
-        url: https://www.v2ex.com/?r=Pipecraft
-        display_url: https://www.v2ex.com/
-        description: V2EX 是创意工作者们的社区。这里目前汇聚了超过 400,000 名主要来自互联网行业、游戏行业和媒体行业的创意工作者。V2EX 希望能够成为创意工作者们的生活和事业的一部分。
-        tags: 开发者,设计师
-      - title: Pipecraft 社区
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
-      - title: BestXTools 社区
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
+      - title: Steam
+        logo: https://brownicat.github.io/assets/logo_steam.png
+        url: https://store.steampowered.com
+        description: 
+        tags: Game Store
+      - title: Epic
+        logo: https://brownicat.github.io/assets/logo_epicgames.png
+        url: https://store.epicgames.com/en-US/
+        description: 
+        tags: Game Store
+  - category: 资源
+      icon: linecons-doc
+      links:
+        - title: Greasy Fork
+          logo: https://brownicat.github.io/assets/logo_greasyfork.png
+          url: https://greasyfork.org/zh-CN
+          description: 
+          tags: Source
+        - title: RARGB
+          logo: https://brownicat.github.io/assets/logo_greasyfork.png
+          url: https://rarbgprx.org/torrents.php
+          description: 
+          tags: Source
+        - title: MSDN itellyou
+          logo: https://brownicat.github.io/assets/logo_greasyfork.png
+          url: https://msdn.itellyou.cn/
+          description: 
+          tags: Source
