@@ -3,29 +3,29 @@
 ## 网址导航页面配置
 ################
 # 网站标题
-title: GenEasy 网址导航
+title: 工具导航
 # 网站 LOGO（可选）
 # logo: https://webstack.cc/assets/images/logo@2x.png
 # 网址导航页面关键字（可选）
-keywords: 网址导航,网站导航,上网导航,网址大全,常用网站,推荐网站,个人导航,个人书签,个人主页,hao123上网导航,hao123导航,hao123网址大全,GenEasy,Github,Github Pages,SSG
+keywords: 网址导航,网站导航,上网导航,网址大全,常用网站,推荐网站,个人导航,个人书签,个人主页,Github,Github Pages,SSG
 # 网址导航页面描述（可选）
 description: 网址导航静态页面通用模板。
 # 网址导航页面 URL（可选）
-url: https://geneasy.github.io/nav/
+# url: https://zh3389.github.io/nav/
 # Favicon（可选）
 shortcut_icon: https://avatars.githubusercontent.com/u/91052735?s=70&v=4
 # 社交分享图片（可选）
 og_img: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
 # 主页 URL
-home_url: https://geneasy.github.io/nav/
+# home_url: https://zh3389.github.io/nav/
 # GitHub 链接（可选）
-github_url: https://github.com/geneasy/nav
+# github_url: https://zh3389.github.io/nav/
 # 网站 about 链接（可选）
-about_url: https://github.com/geneasy/nav
+# about_url: https://zh3389.github.io/nav/
 # 提交链接的 URL
-link_submission_url: https://github.com/geneasy/nav/issues
+link_submission_url: https://github.com/zh3389/nav/blob/main/links.yml
 # 网站友情链接（可选）
-friendship_links_url: https://geneasy.github.io/links/
+# friendship_links_url: https://zh3389.github.io/links/
 # Google Analytics Code（可选）
 # ga_tracking_code_id: G-ABCDEFG
 
@@ -33,146 +33,489 @@ friendship_links_url: https://geneasy.github.io/links/
 ## 导航栏
 ################
 navigation_urls:
-  - title: 页面1
-    url: page1/
-  - title: 页面2
-    url: page2/
+  - title: AI在线商店
+    url: https://openxlab.org.cn/apps
+  - title: ChatGPT
+    url: https://chat.openai.com
+  - title: 万事百科
+    url: https://zh.wikihow.com
+  - title: 在线工具箱
+    url: https://tool.lu
+  - title: 编程速查表
+    url: https://quickref.me
+  - title: 资源下载
+    url: https://axutongxue.com
+  - title: 全球最大的资源网站
+    url: http://rutracker.org
+  - title: 小霸王在线
+    url: https://www.yikm.net
 
+    
 ################
 ## 网址导航数据
 ################
-categories:
-  - category: 新添加
+categories: 
+  - category: 综合导航网站
+    icon: linecons-doc
+    links:
+      - title: 程序员导航
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">综合</text></svg>
+        url: http://www.cxy521.com/
+        description: 程序员导航网站
+      - title: 爱分享吧
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">综合</text></svg>
+        url: https://www.ifx8.com
+        description: 综合性导航网站
+      - title: seeseed
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">设计</text></svg>
+        url: https://www.seeseed.com
+        description: 无穷尽设计可能
+      - title: 优设
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">设计</text></svg>
+        url: https://hao.uisdc.com
+        description: 设计师导航网址
+      - title: HiPPTer
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">PPT</text></svg>
+        url: http://www.hippter.com/
+        description: PPT资源导航
+      - title: appmaster
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">生产力</text></svg>
+        url: https://appmaster.io/zh
+        description: 无代码开发 学习尝试 商机
+      - title: Marp
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">生产力</text></svg>
+        url: https://marp.app/
+        description: Markdown生成PPT开源项目Marp
+        
+  - category: ChatTools
+    icon: linecons-doc
+    links:
+      - title: 聚合Chat
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">Poe</text></svg>
+        url: https://poe.com/
+        description: 感谢您使用 Poe！我们正在构建一个平台，让人们可以提出问题、获得即时答案并与 AI 进行来回对话。
+      - title: OpenAI ChatGPT
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">程序</text></svg>
+        url: https://ai.com
+        description: ChatGPT
+      - title: Google Bard
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">程序</text></svg>
+        url: https://bard.google.com/
+        description: Google ChatGPT Bard
+      - title: 新bing
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">程序</text></svg>
+        url: https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx
+        description: new bing
+      - title: Claude
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">程序</text></svg>
+        url: https://www.anthropic.ai/
+        description: Claude
+      - title: ChatGPT指令大全
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">指令</text></svg>
+        url: https://www.explainthis.io/zh-hans/chatgpt
+        description: ChatGPT使用指令
+
+  - category: 实用AI工具
+    icon: linecons-doc
+    links:
+      - title: AI导航 allthingsai
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">导航</text></svg>
+        url: https://allthingsai.com/
+        description: AI导航
+      - title: AI导航 ai.tboxn
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">导航</text></svg>
+        url: https://ai.tboxn.com/
+        description: AI导航
+      - title: AI导航 ainavpro
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">导航</text></svg>
+        url: https://www.ainavpro.com/
+        description: AI导航
+      - title: AI导航 aigc
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">导航</text></svg>
+        url: https://aigc.cn/
+        description: AI导航
+      - title: 一起用AI 17yongai
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">导航</text></svg>
+        url: https://17yongai.com/
+        description: AI导航
+      - title: AI工具更新 futurepedia
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">推荐</text></svg>
+        url: https://www.futurepedia.io/
+        description: 最大的 AI 工具目录，每日更新
+      - title: AI工具更新 futuretools
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">推荐</text></svg>
+        url: https://www.futuretools.io/
+        description: 最新的AI工具推荐
+      - title: 美区信用卡
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">信用卡</text></svg>
+        url: https://nobepay.com/
+        description: 美区信用卡
+      - title: ANIMATED DRAWINGS
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">动画</text></svg>
+        url: https://sketch.metademolab.com
+        description: 通过动画角色四处移动，让孩子们的图画栩栩如生！
+      - title: discoart
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">AI</text></svg>
+        url: https://github.com/jina-ai/discoart
+        description: 自动绘画AI
+      - title: Sketch2Pose
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">AI</text></svg>
+        url: https://github.com/kbrodt/sketch2pose
+        description: 从位图草图估计3D角色姿势
+      - title: DeepAAonWeb
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">转换</text></svg>
+        url: https://tar-bin.github.io/DeepAAonWeb
+        description: 在线图像转文本
+      - title: Bigjpg
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">放大</text></svg>
+        url: https://bigjpg.com
+        description: AI人工智能图片放大  Bigjpg - 使用开源waifu2x人工智能深度卷积神经网络（CNN）智能无损免费放大图片
+      - title: AI绘画
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">生成</text></svg>
+        url: https://creator.nightcafe.studio
+        description: 内容图像生成
+      - title: AI绘画
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">生成</text></svg>
+        url: https://wenxin.baidu.com/ernie-vilg
+        description: ERNIE-ViLG 文生图
+      - title: AI绘画
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">生成</text></svg>
+        url: https://yige.baidu.com
+        description: 文心一格 百度 内容图像生成
+      - title: AI智能写作
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">写作</text></svg>
+        url: https://wenxin.baidu.com/ernie3
+        description: giiso写作机器人
+      - title: giiso
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">写作</text></svg>
+        url: https://www.giiso.com
+        description: ERNIE3.0文本理解与创作
+      - title: 易撰
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">写作</text></svg>
+        url: https://www.yizhuan5.com
+        description: 让创作更高效
+      - title: 写作猫
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">写作</text></svg>
+        url: https://xiezuocat.com
+        description: 集AI写作、多人协作、文本校对、改写润色、自动配图等功能为一体AI Native内容创作平台
+      - title: 人声分离
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">音频</text></svg>
+        url: https://vocalremover.org
+        description: 使用强大的 AI 算法免费将歌曲中的声音与音乐分离
+      - title: AI歌词生成
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">歌词</text></svg>
+        url: https://wenxin.baidu.com/wenxin/pc/lyrics
+        description: 歌词生成 10秒创作一首歌
+        
+  - category: 实用工具网站
     icon: linecons-star
     links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-        tags: 程序员,生活,创意
-      - title: Pipecraft 社区
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
+      - title: PDF工具箱
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">PS</text></svg>
+        url: https://tools.pdf24.org/zh
+        description: 精心裁剪的针对特定问题的工具。下面是所有的PDF工具。
+      - title: 在线Photoshop
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">PS</text></svg>
+        url: https://www.photopea.com
+        description: 免费的在线图像编辑器，支持 PSD、 XCF、Sketch、XD、CDR 等格式 (Adobe Photoshop， GIMP， Sketch App， Adobe XD， CoreIDRAW)。
+      - title: draw.io
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">画图</text></svg>
+        url: https://www.draw.io
+        description: 将您的存储空间带到我们的在线工具中，或使用桌面应用程序最大限度地保护隐私。
+      - title: excalidraw
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">草图</text></svg>
+        url: https://excalidraw.com/
+        description: 虚拟白板，用于绘制手绘图表等草图。
+      - title: tinkercad
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">3D建模</text></svg>
+        url: https://www.tinkercad.com/
+        description: Tinkercad是一款用于三维设计、电子电路设计和编码的免费网页应用程序。
+      - title: Squoosh
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">压缩</text></svg>
+        url: https://squoosh.app
+        description: 在浏览器中用不同的编解码器压缩和比较图像(Google出品)
+      - title: magiceraser
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">抠图</text></svg>
+        url: https://www.magiceraser.io
+        description: 在几秒钟内删除不需要的东西  上传，标记您需要删除的位置，下载  免费使用。无需注册！
+      - title: convertio
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">转换</text></svg>
+        url: https://convertio.co/zh
+        description: 文件转换器 将您的文件转换成任意格式
+      - title: vectormagic
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">像素</text></svg>
+        url: https://zh.vectormagic.com
+        description: 轻轻松松 把 JPG、PNG、GIF 文件 转换成 PDF、SVG、EPS 矢量图像 通过世界上最佳全彩自动描摹器，迅速地使您的艺术品做好打印、修饰、剪切等操作的准备！
+      - title: TinyPNG
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">压缩</text></svg>
+        url: https://tinypng.com
+        description: 智能PNG和JPEG压缩，以质量和文件大小的完美平衡来优化您的图像
+      - title: icomoon
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">ico</text></svg>
+        url: https://icomoon.io/app
+        description: 在线icon编辑
+      - title: Canva
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">画图</text></svg>
+        url: https://www.canva.cn
+        description: 在线做图软件
+      - title: 早标网
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">换词</text></svg>
+        url: https://www.zaobiao.net
+        description: 早标网，降重不限字数！ 今日论文今日改，莫待明日空着急，不要让改论文阻碍毕业的步伐。
+      - title: 句子控
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">写作</text></svg>
+        url: https://www.juzikong.com
+        description: 收集与分享你喜欢的句子
+      - title: remove.bg
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">抠图</text></svg>
+        url: https://www.remove.bg/zh
+        description: 图片背景消除100% 全自动且免费
+      - title: 临时邮箱
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">匿名</text></svg>
+        url: https://www.linshiyouxiang.net/
+        description: 临时邮箱 10分钟邮箱，临时邮箱，临时邮，临时电子邮箱，24小时邮箱，一次性邮箱，匿名邮箱，安全邮箱
+      - title: 虚拟电话号码
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">匿名</text></svg>
+        url: https://jiemahao.com
+        description: 在线虚拟电话号码
+      - title: 收费接码平台
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">接码</text></svg>
+        url: https://sms-activate.org/cn
+        description: 便宜的虚拟电话号码
 
-  - category: 推荐
-    hide_menu: true
+  - category: 商用图库视频
+    icon: linecons-doc
+    links:
+      - title: pixabay
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">img</text></svg>
+        url: https://pixabay.com/zh/
+        description: 免费正版高清图片素材库 Pixabay拥有超过2.7百万张优质图片和视频素材，让你轻松应对各种设计场景
+      - title: unsplash
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">img</text></svg>
+        url: https://unsplash.com
+        description: 互联网的视觉资源。由各地的创作者提供支持。
+      - title: pexels
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">img</text></svg>
+        url: https://www.pexels.com/zh-cn
+        description: 才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频。
+      - title: stocksnap
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">img</text></svg>
+        url: https://stocksnap.io
+        description: 美丽的免费图片。
+      - title: isorepublic
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">img</text></svg>
+        url: https://isorepublic.com
+        description: 美丽的免费图片。
+      - title: lifeofpix
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">video</text></svg>
+        url: https://www.lifeofpix.com
+        description: 免费高分辨率摄影。
+      - title: videvo
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">video</text></svg>
+        url: https://www.videvo.net
+        description: 免费高分辨率摄影。
+      - title: mixkit.co
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">video</text></svg>
+        url: https://mixkit.co
+        description: 为您的下一个视频项目提供免费资源
+      - title: fontello
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">ico</text></svg>
+        url: https://fontello.com
+        description: 个人免费的icon
+      - title: iconfont
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">ico</text></svg>
+        url: https://www.iconfont.cn
+        description: 个人免费的icon 阿里
+      - title: iconpark
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">ico</text></svg>
+        url: https://iconpark.oceanengine.com
+        description: 个人免费的icon 字节跳动
+      - title: stickpng
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">png</text></svg>
+        url: http://www.stickpng.com/
+        description: 个人免费PNG      
+      - title: 在线性能评测
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">web</text></svg>
+        url: https://pagespeed.web.dev
+        description: pagespeed根据各项指标可以得出我们网站的一个综合评分,让我们知道我们的网站在哪些方面还可以进行优化.
+      - title: 多平台测试
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">test</text></svg>
+        url: https://responsively.app
+        description: 开发响应式 Web 应用程序的速度提高 5 倍！
+
+  - category: 商用背景音乐
+    icon: linecons-doc
+    links:
+      - title: 淘声toSound
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">music</text></svg>
+        url: https://www.tosound.com
+        description: 探索全球 1,000,000+ 声音资源
+      - title: freemusicarchive
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">music</text></svg>
+        url: https://freemusicarchive.org
+        description: 免版税音乐。可安全地用于各种媒体，如 YouTube、Facebook 和播客剧集。
+      - title: FUGUE
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">music</text></svg>
+        url: https://igoutu.cn/music
+        description: 用于视频的免版税音乐。 远比其他市场更具选择性，比Hans Zimmer要便宜得多。事实上，对于非商业用途，我们的音乐是完全免费的。
+      - title: freeplaymusic
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">music</text></svg>
+        url: https://freeplaymusic.com
+        description: 某某声音从这里开始
+      - title: imslp
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">music</text></svg>
+        url: https://cn.imslp.org
+        description: 全球最大的免费公共版权音乐网站
+      - title: Scorser
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">music</text></svg>
+        url: http://zh.scorser.com
+        description: 音乐家搜索系统
+      - title: 站长素材音效
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">music</text></svg>
+        url: https://sc.chinaz.com/yinxiao
+        description: 站长素材
+      - title: 爱给网
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">music</text></svg>
+        url: https://www.aigei.com
+        description: 专注免费素材
+      - title: 100AUDIO
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">music</text></svg>
+        url: https://100audio.com
+        description: 100AUDIO音乐授权 有保障的版权音乐
+        
+  - category: 数据可视化
+    icon: linecons-doc
+    links:      
+      - title: 在线图表绘制
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">图表</text></svg>
+        url: https://echarts.apache.org/examples
+        description: 一个基于 JavaScript 的开源可视化图表库
+      - title: 光启元
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">3D</text></svg>
+        url: https://web.raykite.com
+        description: 全新的三维数据演示工具，引领数据内容创作与演示的全新升级
+
+  - category: 图片资源
+    icon: linecons-doc
+    links:
+      - title: 元气壁纸
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">壁纸</text></svg>
+        url: https://bizhi.cheetahfun.com/
+        description: 电脑壁纸网站
+      - title: wallhaven
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">壁纸</text></svg>
+        url: https://wallhaven.cc/
+        description: 电脑壁纸网站
+      - title: fanbox
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">插画</text></svg>
+        url: https://www.fanbox.cc
+        description: 电脑壁纸网站 插画
+      - title: pixiv
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">插画</text></svg>
+        url: https://www.pixiv.net/
+        description: 电脑壁纸网站 插画
+
+  - category: 开发资源
+    icon: linecons-doc
+    links:
+      - title: Railway
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">待添加</text></svg>
+        url: https://railway.app/dashboard
+        description: GitHub绑定免费服务器 5美元500小时/月
+      - title: surge
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">Serve</text></svg>
+        url: https://surge.sh
+        description: 免费静态服务器
+      - title: Googl Cloud
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">服务器</text></svg>
+        url: https://console.cloud.google.com/
+        description: Google云服务器控制台
+      - title: 腾讯云开发
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">云开发</text></svg>
+        url: https://console.cloud.tencent.com/
+        description: 腾讯云开发
+      - title: API资源库
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">API</text></svg>
+        url: https://rapidapi.com/hub/
+        description: 欢迎来到 RapidAPI 中心 发现并连接到数以千计的 API
+      - title: 域名dynadot
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">域名</text></svg>
+        url: https://www.dynadot.com/
+        description: 寻找域名宝藏中的大优惠, 轻松地在我们的域名市场购买和出售域名。
+      - title: 自动写代码
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">工具</text></svg>
+        url: https://www.cursor.so/
+        description: 自动写代码
+        
+  - category: 其它资源
+    hide_menu: false
     icon: linecons-star
-    links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: Pipecraft 社区
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
-      - title: 纵横网址导航
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">纵</text></svg>
-        url: https://zh.pipecraft.net/
-        description: 收集小而美的中文垂直社区，微社区，垂直网址导航的网址导航网站。
-        tags: 网址导航,中文垂直社区,微社区,垂直网址导航
+    links:      
+      - title: 免费字体
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">字体</text></svg>
+        url: https://www.wfonts.com
+        description: 下载免费字体 最好的网站下载免费字体
+      - title:  表情符号
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">表情</text></svg>
+        url: https://www.emojiall.com/zh-hans
+        description: 该网站提供了最新、完整的Emoji搜索和相关信息，包括表情符号含义、使用示例、Unicode代码点、高分辨率图片、复制和粘贴，以及Emoji大数据排名、矢量图形和动态图表、智能算法情感分析和表情符号语言学研究。
+      - title: fontspace
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">字体</text></svg>
+        url: https://www.fontspace.com
+        description: 100,000 多种免费字体免费下载合法许可的字体，非常适合您的设计项目。
+      - title: 漫猫动漫BT下载
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">动漫</text></svg>
+        url: http://www.comicat.org
+        description: 漫猫字幕组官方BT分享站，动画～漫画～游戏～动漫音乐～片源（RAW）等资源BT下载
+      - title: 微元素E3D
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">CG</text></svg>
+        url: https://www.element3ds.com
+        description: 微元素,游戏资源下载,游戏原画,手机游戏资源,游戏开发资源
+      - title: GBT乐赏游戏
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">游戏</text></svg>
+        url: http://www.gbtgame.ysepan.com
+        description: GBT乐赏游戏空间 游戏下载资源站
+      - title: crazygames
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">游戏</text></svg>
+        url: https://www.crazygames.com
+        description: 在线游戏网站
+      - title: 硬创社
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">硬件</text></svg>
+        url: https://x.jlc.com
+        description: 好玩的硬件交流社区
+      - title: 不用手机号的邮箱
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">邮箱</text></svg>
+        url: https://mail.proton.me/
+        description: 国外不用手机号的邮箱注册
 
-  - category: 程序员博客
+  - category: 工作
+    icon: linecons-doc
+    links:
+      - title: Jira PRD
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">Jira</text></svg>
+        url: http://192.168.18.239:8080
+        description: Jira Software
+      - title: SVN
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">SVN</text></svg>
+        url: http://192.168.10.203:3000
+        description: 代码版本管理
+      - title: OA
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">OA</text></svg>
+        url: https://117.176.129.103:9081
+        description: OA网页版
+      - title: mail
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">邮箱</text></svg>
+        url: https://mailh.qiye.163.com/
+        description: 企业邮箱
+      - title: 飞书
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">飞书</text></svg>
+        url: https://www.feishu.cn/
+        description: 飞书协同文档
+        
+  - category: 待添加
     icon: linecons-doc
     links:
       - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="2em" x="0.6em" font-size="30">待添加</text></svg>
+        url: https://github.com/zh3389/nav/issues
         description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-        tags: 程序员,生活,创意
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-
-  - category: 设计师博客
-    icon: linecons-doc
-    links:
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-
-  - category: 个人博客
-    icon: linecons-doc
-    links:
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-
-  - category: 社区
-    icon: linecons-doc
-    links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: V2EX
-        logo: https://images.weserv.nl/?url=https://www.v2ex.com/static/img/v2ex@2x.png&w=60&h=60
-        url: https://www.v2ex.com/?r=Pipecraft
-        display_url: https://www.v2ex.com/
-        description: V2EX 是创意工作者们的社区。这里目前汇聚了超过 400,000 名主要来自互联网行业、游戏行业和媒体行业的创意工作者。V2EX 希望能够成为创意工作者们的生活和事业的一部分。
-        tags: 开发者,设计师
-      - title: Pipecraft 社区
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
-      - title: BestXTools 社区
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
